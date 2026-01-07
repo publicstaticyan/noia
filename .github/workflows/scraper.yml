@@ -7,6 +7,7 @@ on:
 
 jobs:
   scrape:
+    environment: Prod
     runs-on: ubuntu-latest
 
     steps:
