@@ -168,6 +168,11 @@ def scrape_all_pages():
     print(f"Notifications sent: {total_notifications_sent}")
     print("=" * 60)
 
+    return {
+        "total_products_found": total_products_found,
+        "total_notifications_sent": total_notifications_sent
+    }
+
 
 if __name__ == "__main__":
     scrape_all_pages()
